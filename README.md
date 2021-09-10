@@ -13,13 +13,13 @@ In order to increase the accuracy and robustness of our system, Transfer Learnin
 
 ## Our System Architecture:
 
-![System Architecture](Images/System_Architectue.png)
+![System Architecture](images/System_Architectue.png)
 
 ## Attention Mechanism (Soft Attention):
 
 As an attempt to simulate one of the most important characteristics of the human visual system, the attention technique was used, which provides a dynamic mechanism that allows each part of the image to oracle a certain meaning to the system:
 
-![Bahdanau Attention](Images/Bahdanau_Attention.png)
+![Bahdanau Attention](images/Bahdanau_Attention.png)
 
 ## Flickr30k Dataset:
 
@@ -29,7 +29,7 @@ Flickr30K dataset was used to train our system, where the error was estimated at
 
 ## The first stage of the training process:
 
-![Training Loss Stage1](Images/Training_Loss_Stage1.png)
+![Training Loss Stage1](images/Training_Loss_Stage1.png)
 
 ## Multiple Decoding Strategies:
 
@@ -44,22 +44,22 @@ After that, we tested our system using different decoding strategies:
 
 In order to enhance the robustness and accuracy of our system, a second stage of the training process was launched, in which the system was trained on a larger set of samples, and the error after the end of that stage was estimated at approximately **35%**:
 
-![Training Loss Stage2](Images/Training_Loss_Stage2.png)
+![Training Loss Stage2](images/Training_Loss_Stage2.png)
 
 ## Graphical User Interface:
 
 Finally, we have developed a GUI which allows you to upload images, and generate their corresponding captions with the use of different decoding strategies:
 
-![1](Images/1.png)
+![1](images/1.png)
 
-![2](Images/2.png)
+![2](images/2.png)
 
-![3](Images/3.png)
+![3](images/3.png)
 
 ## Visualize Attention:
 
 We have provided a simple mechanism that allows the user to observe the attention technique that the system uses to focus its attention on different parts of the image as it generates each word of the resulting caption:
 
-![Visualize Att1](Images/vatt1.png)
+![Visualize Att1](images/vatt1.png)
 
-![Visualize Att2](Images/vatt2.png)
+![Visualize Att2](images/vatt2.png)
