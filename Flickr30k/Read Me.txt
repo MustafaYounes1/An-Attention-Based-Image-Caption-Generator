@@ -1,0 +1,18 @@
+First of all, you have to place the captions of Flickr30k dataset in this directory (as a '.token' file)
+
+From 'Data_PreProcessing.py' Run the following methods:
+-------------------------------------------------------
+
+1. creating_dataframe_of_cleaned_captions() --> Cleaning Process 
+
+2. data_limiter() --> Limiting the data samples (in order to use a batch size of 64)
+
+3. tokenize_captions() --> Tokenizing Process
+
+4. padding_tokenized_captions() --> Padding Process
+
+5. splitting_paths_and_captions_to_train_and_test() --> Split the data into training and testing sets [First Stage of training process).
+
+6. splitting_paths_and_captions_to_train_and_test_stage2() --> Split the data into training and testing sets [First Stage of training process).
+
+7. creating_dataframe_of_testImages_and_captions_stage2()  

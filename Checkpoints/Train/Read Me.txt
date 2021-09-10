@@ -1,0 +1,11 @@
+
+Checkpoints of training process must be here ..
+
+To start the first stage of training process:
+---------------------------------------------
+from 'Training_Testing_Procedures.py' Run 'start_training()'
+
+To start the second stage of training process:
+----------------------------------------------
+from 'Training_Stage2.py' Run 'start_training()'
+

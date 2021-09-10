@@ -1,0 +1,6 @@
+
+'EfficientNetB7_FeatureExtractor.h5' must be here ..
+
+To Download it:
+---------------
+From 'Encoder.py' Run 'download_efficientNetB7_as_featureExtractor()'
